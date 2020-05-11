@@ -22,7 +22,8 @@
 <style lang="scss" scoped>
 
 .header-container {
-  min-height: 100vh;
+  height: 160px;
+  background: $dark;
   font-family: 'Rokkitt', serif;
   color: $green-light;
   text-align: center;
