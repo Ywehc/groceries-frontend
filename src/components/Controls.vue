@@ -24,10 +24,7 @@
                         <a href="#" class="dropdown-item">
                             Grocery List 4
                         </a>
-                        <hr class="dropdown-divider">
-                        <a href="#" class="dropdown-item">
-                            With a divider
-                        </a>
+
                     </div>
                 </div>
             </div>
@@ -72,13 +69,25 @@ export default {
 .new-list {
     background-color: $gold-light;
     color: $dark;
+    border: $green-dark; 
 }
 .list-selector{
     background-color: $green-light;
-    color: $dark;  
+    color: $dark; 
+    border: $green-dark; 
 }
 .new-list, .list-selector {
-    border-color: $gold-dark;
     font-weight: bold;
+}
+.dropdown-content {
+    background-color: $dark;
+    border: 4px solid $dark;
+    a {
+        color: $green-light;
+        font-weight: bold;
+    }
+}
+.dropdown-item.is-active {
+    background: $gold-light;
 }
 </style>

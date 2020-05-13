@@ -22,5 +22,6 @@ export default {
 
 #app {
   background: $dark;
+  min-height: 100vh;
 }
 </style>

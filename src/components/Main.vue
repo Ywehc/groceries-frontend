@@ -17,9 +17,19 @@ export default {
   }
 }
 </script>
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-    .spacer {
-        height: 20px;
-    }
+.main-container {
+  font-family: 'Livvic', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+.spacer {
+    height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .spacer {
+    height: 60px;
+  }
+}
 </style>
