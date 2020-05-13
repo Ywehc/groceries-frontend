@@ -2,9 +2,9 @@
   <div class="header-container">
     <div class="logo-container">
       <div class="upper-logo">
-        <h2 class="quick">Q</h2>
-        <h2 class="quick">u</h2>
-        <h2 class="quick">i</h2>
+        <h2 class="quick q">Q</h2>
+        <h2 class="quick u ">u</h2>
+        <h2 class="quick i">i</h2>
         <h2 class="grocery">
             Grocery
         </h2>
@@ -18,7 +18,6 @@
   </div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 
 .header-container {
@@ -29,11 +28,11 @@
   text-align: center;
   font-size: 40px;
   line-height: 28px;
-  position: relative;
   margin: auto;
 }
 .logo-container {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   padding: 14px;
   width: 100%;
 }
@@ -55,5 +54,29 @@
 .fa-carrot {
   font-size: 20px;
   margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .grocery {
+    margin-left: 30px;
+    text-align: left;
+  }
+  .logo-container {
+    display: flex;
+    text-align: left;
+    padding-top: 30px;
+  }
+  .q {
+    margin-left: 94px;
+  }
+  .u{
+    margin-left: 98px;
+  }
+  .i {
+    margin-left: 102px;
+  }
+  .k {
+    margin-left: 98px;
+  }
 }
 </style>
