@@ -1,4 +1,4 @@
-# groceries-frontend
+Vue frontend for a grocery list app 
 
 ## Project setup
 ```
